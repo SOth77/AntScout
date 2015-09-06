@@ -1,0 +1,325 @@
+21:15:09.383 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Bahrenfeld-Gross-Flottbek-Othmarschen-Ottensen.osm
+21:15:09.735 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+21:15:09.783 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+21:15:10.325 INFO  [d.f.a.osm.OsmMap] [] - 2139 nodes parsed in 481 milliseconds
+21:15:10.337 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+21:15:11.505 INFO  [d.f.a.osm.OsmMap] [] - 494 ways parsed in 1129 milliseconds
+21:15:11.521 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+21:15:12.228 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 2139 elements computed, took 502 ms
+21:15:12.320 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+21:15:12.480 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+21:15:12.671 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+21:15:13.454 INFO  [d.f.a.antnet.AntMap] [] - 151 ant ways data computed, took 743 ms
+21:15:13.462 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+21:15:13.516 INFO  [d.f.a.antnet.AntMap] [] - 104 nodes computed
+21:15:13.569 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+21:15:13.767 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+21:15:13.795 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+21:15:14.066 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+21:15:14.117 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+21:15:14.252 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+21:15:14.268 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+21:15:14.323 INFO  [d.f.a.antnet.AntMap] [] - 99 sources and 100 destinations computed, took 18 ms
+21:15:14.356 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+21:15:14.903 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+21:15:16.368 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 1276 ms
+21:15:17.377 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+21:19:30.242 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+21:19:31.684 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+21:29:33.843 INFO  [b.liftweb.Boot] [] - Shutting down
+21:29:56.105 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+21:31:17.365 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+21:31:17.569 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+21:31:17.583 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+21:31:18.189 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 551 milliseconds
+21:31:18.237 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+21:31:20.450 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+21:31:21.029 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+21:31:22.858 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:81) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:24) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:20) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:20) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_01]
+21:31:34.904 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 16608 milliseconds
+21:31:34.957 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+21:31:35.429 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 240 ms
+21:31:35.467 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+21:31:35.525 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+21:31:35.641 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+21:31:36.466 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 782 ms
+21:31:36.473 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+21:31:36.528 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+21:31:36.529 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+21:31:36.689 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+21:31:36.713 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+21:31:37.012 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+21:31:37.063 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+21:31:37.222 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+21:31:37.238 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+21:31:37.285 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 14 ms
+21:31:37.300 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+21:31:37.973 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+21:31:40.163 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 2023 ms
+21:31:41.995 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+21:32:24.990 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+21:32:24.992 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+21:46:24.537 ERROR [a.a.ActorSystemImpl] [ActorSystem(AntScout)] - Uncaught error from thread [AntScout-ant-node-dispatcher-3] shutting down JVM since 'akka.jvm-exit-on-fatal-error' is enabled
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at scala.collection.mutable.ResizableArray$class.$init$(ResizableArray.scala:33) ~[scala-library.jar:0.12.0]
+	at scala.collection.mutable.ArrayBuffer.<init>(ArrayBuffer.scala:47) ~[scala-library.jar:0.12.0]
+	at scala.collection.mutable.ArrayBuffer.<init>(ArrayBuffer.scala:61) ~[scala-library.jar:0.12.0]
+	at scala.collection.mutable.Iterable$.newBuilder(Iterable.scala:36) ~[scala-library.jar:0.12.0]
+	at scala.collection.generic.GenericTraversableTemplate$class.genericBuilder(GenericTraversableTemplate.scala:68) ~[scala-library.jar:0.12.0]
+	at scala.collection.mutable.HashMap.genericBuilder(HashMap.scala:45) ~[scala-library.jar:0.12.0]
+	at scala.collection.generic.GenTraversableFactory$GenericCanBuildFrom.apply(GenTraversableFactory.scala:49) ~[scala-library.jar:0.12.0]
+	at scala.collection.generic.GenTraversableFactory$GenericCanBuildFrom.apply(GenTraversableFactory.scala:44) ~[scala-library.jar:0.12.0]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:231) ~[scala-library.jar:0.12.0]
+	at scala.collection.mutable.HashMap.map(HashMap.scala:45) ~[scala-library.jar:0.12.0]
+	at de.fhwedel.antscout.utils.StatisticsUtils$.selectByProbability(StatisticsUtils.scala:25) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.Ant.nextNode(Ant.scala:85) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.AntNode.forwardAnt(AntNode.scala:104) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.AntNode$$anonfun$launchAnts$1$$anonfun$apply$13.apply(AntNode.scala:188) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.AntNode$$anonfun$launchAnts$1$$anonfun$apply$13.apply(AntNode.scala:187) ~[classes/:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:233) ~[scala-library.jar:0.12.0]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:233) ~[scala-library.jar:0.12.0]
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:130) ~[scala-library.jar:0.12.0]
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:275) ~[scala-library.jar:0.12.0]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:233) ~[scala-library.jar:0.12.0]
+	at scala.collection.immutable.HashSet.scala$collection$SetLike$$super$map(HashSet.scala:33) ~[scala-library.jar:0.12.0]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:0.12.0]
+	at scala.collection.immutable.HashSet.map(HashSet.scala:33) ~[scala-library.jar:0.12.0]
+	at de.fhwedel.antscout.antnet.AntNode$$anonfun$launchAnts$1.apply(AntNode.scala:187) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.AntNode$$anonfun$launchAnts$1.apply(AntNode.scala:185) ~[classes/:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.12.0]
+	at de.fhwedel.antscout.antnet.AntNode.launchAnts(AntNode.scala:185) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.AntNode$$anonfun$receive$1.apply(AntNode.scala:391) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.AntNode$$anonfun$receive$1.apply(AntNode.scala:379) ~[classes/:na]
+	at akka.actor.Actor$class.apply(Actor.scala:318) ~[akka-actor-2.0.4.jar:2.0.4]
+	at de.fhwedel.antscout.antnet.AntNode.apply(AntNode.scala:18) ~[classes/:na]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:626) ~[akka-actor-2.0.4.jar:2.0.4]
+21:49:01.434 ERROR [n.l.h.p.HTTPProvider] [] - Failed to Boot! Your application may not run properly
+java.lang.ExceptionInInitializerError: null
+	at de.fhwedel.antscout.AntScout$.<init>(AntScout.scala:118) ~[classes/:na]
+	at de.fhwedel.antscout.AntScout$.<clinit>(AntScout.scala) ~[classes/:na]
+	at bootstrap.liftweb.Boot.boot(Boot.scala:24) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_01]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_01]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_01]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_01]
+	at net.liftweb.util.ClassHelpers$$anonfun$createInvoker$1.apply(ClassHelpers.scala:364) ~[lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ClassHelpers$$anonfun$createInvoker$1.apply(ClassHelpers.scala:362) ~[lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.DefaultBootstrap$$anonfun$boot$1.apply(LiftRules.scala:1975) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.DefaultBootstrap$$anonfun$boot$1.apply(LiftRules.scala:1975) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.common.Full.map(Box.scala:553) ~[lift-common_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.DefaultBootstrap$.boot(LiftRules.scala:1975) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.bootLift(HTTPProvider.scala:88) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.bootLift(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.init(ServletFilterProvider.scala:40) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.init(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:263) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1238) [jetty-webapp-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:480) [jetty-webapp-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at com.github.siasia.Jetty7Runner.start(JettyRunner.scala:95) [xsbt-web-plugin_2.9.2-0.12.0-0.2.11.1.jar:0.12.0-0.2.11.1]
+	at com.github.siasia.Container$$anonfun$containerSettings$7.apply(Container.scala:65) [xsbt-web-plugin_2.9.2-0.12.0-0.2.11.1.jar:0.12.0-0.2.11.1]
+	at com.github.siasia.Container$$anonfun$containerSettings$7.apply(Container.scala:59) [xsbt-web-plugin_2.9.2-0.12.0-0.2.11.1.jar:0.12.0-0.2.11.1]
+	at sbt.Scoped$$anonfun$hf7$1.apply(Structure.scala:583) [main-0.12.0.jar:0.12.0]
+	at sbt.Scoped$$anonfun$hf7$1.apply(Structure.scala:583) [main-0.12.0.jar:0.12.0]
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:49) [scala-library.jar:0.12.0]
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311) [main-0.12.0.jar:0.12.0]
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311) [main-0.12.0.jar:0.12.0]
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) [collections-0.12.0.jar:0.12.0]
+	at sbt.std.Transform$$anon$5.work(System.scala:71) [task-system-0.12.0.jar:0.12.0]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232) [tasks-0.12.0.jar:0.12.0]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232) [tasks-0.12.0.jar:0.12.0]
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) [control-0.12.0.jar:0.12.0]
+	at sbt.Execute.work(Execute.scala:238) [tasks-0.12.0.jar:0.12.0]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232) [tasks-0.12.0.jar:0.12.0]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232) [tasks-0.12.0.jar:0.12.0]
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159) [tasks-0.12.0.jar:0.12.0]
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30) [tasks-0.12.0.jar:0.12.0]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_01]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_01]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_01]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_01]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_01]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_01]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_01]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_01]
+Caused by: com.typesafe.config.ConfigException$Parse: reference.conf: 98: Key '"47 Knoten"' may not be followed by token: ',' (if you intended ',' to be part of the value for '"47 Knoten"', try enclosing the value in double quotes)
+	at com.typesafe.config.impl.Parser$ParseContext.parseError(Parser.java:322) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parser$ParseContext.parseError(Parser.java:318) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parser$ParseContext.parseObject(Parser.java:636) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parser$ParseContext.parseValue(Parser.java:401) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parser$ParseContext.parseObject(Parser.java:650) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parser$ParseContext.parse(Parser.java:825) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parser.parse(Parser.java:34) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parseable.rawParseValue(Parseable.java:199) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parseable$ParseableResources.rawParseValue(Parseable.java:537) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parseable$ParseableResources.rawParseValue(Parseable.java:492) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parseable.parseValue(Parseable.java:171) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parseable.parseValue(Parseable.java:165) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.Parseable.parse(Parseable.java:204) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.ConfigImpl$1.call(ConfigImpl.java:348) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.ConfigImpl$1.call(ConfigImpl.java:345) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.ConfigImpl$LoaderCache.getOrElseUpdate(ConfigImpl.java:49) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.ConfigImpl.computeCachedConfig(ConfigImpl.java:77) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.ConfigImpl.defaultReference(ConfigImpl.java:345) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.defaultReference(ConfigFactory.java:369) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.load(ConfigFactory.java:164) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.load(ConfigFactory.java:93) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.load(ConfigFactory.java:115) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.loadDefaultConfig(ConfigFactory.java:196) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.loadDefaultConfig(ConfigFactory.java:173) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.loadDefaultConfig(ConfigFactory.java:169) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.access$000(ConfigFactory.java:31) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory$1.call(ConfigFactory.java:279) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory$1.call(ConfigFactory.java:276) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.ConfigImpl$LoaderCache.getOrElseUpdate(ConfigImpl.java:49) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.impl.ConfigImpl.computeCachedConfig(ConfigImpl.java:77) ~[config-0.5.2.jar:na]
+	at com.typesafe.config.ConfigFactory.load(ConfigFactory.java:276) ~[config-0.5.2.jar:na]
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:93) ~[akka-actor-2.0.4.jar:2.0.4]
+	at de.fhwedel.antscout.package$.<init>(package.scala:16) ~[classes/:na]
+	at de.fhwedel.antscout.package$.<clinit>(package.scala) ~[classes/:na]
+	... 57 common frames omitted

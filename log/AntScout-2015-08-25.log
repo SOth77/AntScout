@@ -1,0 +1,34 @@
+15:02:57.564 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Map.osm
+15:02:57.864 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+15:02:57.874 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+15:02:58.084 INFO  [d.f.a.osm.OsmMap] [] - 7184 nodes parsed in 200 milliseconds
+15:02:58.084 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+15:02:59.564 INFO  [d.f.a.osm.OsmMap] [] - 1384 ways parsed in 1480 milliseconds
+15:02:59.634 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+15:02:59.874 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7184 elements computed, took 170 ms
+15:02:59.874 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+15:02:59.914 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+15:02:59.974 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+15:03:00.154 INFO  [d.f.a.antnet.AntMap] [] - 10 ant ways data computed, took 170 ms
+15:03:00.164 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+15:03:00.164 INFO  [d.f.a.antnet.AntMap] [] - 12 nodes computed
+15:03:00.184 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+15:03:00.214 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+15:03:00.224 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+15:03:00.294 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+15:03:00.304 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+15:03:00.314 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+15:03:00.314 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+15:03:00.324 INFO  [d.f.a.antnet.AntMap] [] - 11 sources and 12 destinations computed, took 0 ms
+15:03:00.324 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+15:03:00.384 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+15:03:00.574 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 150 ms
+15:03:00.674 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+15:03:07.199 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:03:07.281 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:08:06.268 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:08:06.270 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:09:31.132 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:09:31.133 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:11:22.490 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:11:22.491 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)

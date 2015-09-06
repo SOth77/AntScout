@@ -1,0 +1,30 @@
+16:50:54.656 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Blankenese-Wedel.osm
+16:50:55.112 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:50:55.151 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:50:55.744 INFO  [d.f.a.osm.OsmMap] [] - 4821 nodes parsed in 495 milliseconds
+16:50:55.763 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:51:02.213 INFO  [d.f.a.osm.OsmMap] [] - 1343 ways parsed in 6385 milliseconds
+16:51:02.275 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:51:03.266 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 4821 elements computed, took 752 ms
+16:51:03.395 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+16:51:03.669 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:51:04.022 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:51:05.540 INFO  [d.f.a.antnet.AntMap] [] - 126 ant ways data computed, took 1448 ms
+16:51:05.547 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:51:05.636 INFO  [d.f.a.antnet.AntMap] [] - 88 nodes computed
+16:51:05.743 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:51:05.981 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:51:06.024 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:51:06.358 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:51:06.410 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:51:06.552 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:51:06.568 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:51:06.623 INFO  [d.f.a.antnet.AntMap] [] - 86 sources and 86 destinations computed, took 13 ms
+16:51:06.665 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+16:51:07.272 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+16:51:08.419 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 993 ms
+16:51:09.320 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+16:51:41.487 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:51:42.486 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+17:03:57.316 INFO  [b.liftweb.Boot] [] - Shutting down
+17:04:06.298 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started

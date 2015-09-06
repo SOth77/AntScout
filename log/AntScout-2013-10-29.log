@@ -1,0 +1,28 @@
+21:44:50.559 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Blankenese-Wedel.osm
+21:44:51.046 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+21:44:51.095 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+21:44:51.950 INFO  [d.f.a.osm.OsmMap] [] - 4821 nodes parsed in 779 milliseconds
+21:44:52.000 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+21:45:00.766 INFO  [d.f.a.osm.OsmMap] [] - 1343 ways parsed in 8678 milliseconds
+21:45:00.778 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+21:45:01.536 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 4821 elements computed, took 585 ms
+21:45:01.617 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+21:45:01.688 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+21:45:01.871 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+21:45:02.467 INFO  [d.f.a.antnet.AntMap] [] - 126 ant ways data computed, took 567 ms
+21:45:02.480 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+21:45:02.507 INFO  [d.f.a.antnet.AntMap] [] - 88 nodes computed
+21:45:02.524 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+21:45:02.590 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+21:45:02.617 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+21:45:02.845 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+21:45:02.978 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+21:45:03.279 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+21:45:03.329 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+21:45:03.464 INFO  [d.f.a.antnet.AntMap] [] - 86 sources and 86 destinations computed, took 46 ms
+21:45:03.510 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+21:45:04.224 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+21:45:06.081 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 1545 ms
+21:45:07.049 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+21:49:23.480 INFO  [b.liftweb.Boot] [] - Shutting down
+21:49:23.963 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started

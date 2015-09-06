@@ -1,0 +1,52 @@
+00:32:59.996 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Map.osm
+00:33:00.276 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+00:33:00.286 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+00:33:00.436 INFO  [d.f.a.osm.OsmMap] [] - 7184 nodes parsed in 140 milliseconds
+00:33:00.436 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+00:33:02.223 INFO  [d.f.a.osm.OsmMap] [] - 1384 ways parsed in 1786 milliseconds
+00:33:02.224 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+00:33:02.405 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7184 elements computed, took 163 ms
+00:33:02.405 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+00:33:02.405 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+00:33:02.462 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+00:33:02.479 INFO  [d.f.a.antnet.AntMap] [] - 10 ant ways data computed, took 17 ms
+00:33:02.480 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+00:33:02.480 INFO  [d.f.a.antnet.AntMap] [] - 12 nodes computed
+00:33:02.481 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+00:33:02.485 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+00:33:02.486 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+00:33:02.518 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+00:33:02.519 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+00:33:02.522 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+00:33:02.522 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+00:33:02.523 INFO  [d.f.a.antnet.AntMap] [] - 11 sources and 12 destinations computed, took 1 ms
+00:33:02.524 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+00:33:02.533 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+00:33:02.559 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 23 ms
+00:33:02.571 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+00:33:15.453 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+00:33:15.463 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+00:34:06.072 INFO  [b.liftweb.Boot] [] - Shutting down
+00:34:06.086 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+00:34:06.088 ERROR [n.l.h.p.s.c.Servlet30AsyncProvider] [] - Servlet 3.0 Async: Couldn't resume thread
+java.lang.NullPointerException: null
+	at net.liftweb.http.provider.servlet.containers.Servlet30AsyncProvider.resume(Servlet30AsyncProvider.scala:114) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.HTTPRequestServlet.resume(HTTPRequestServlet.scala:163) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:669) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:651) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LiftActor$class.execTranslate(LiftActor.scala:441) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.execTranslate(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$proc2(LiftActor.scala:289) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply$mcV$sp(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.around(LiftActor.scala:224) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.around(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$processMailbox(LiftActor.scala:209) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(LiftActor.scala:173) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LAScheduler$$anonfun$9$$anon$2$$anon$3.run(LiftActor.scala:64) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
