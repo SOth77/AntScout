@@ -50,3 +50,261 @@ java.lang.NullPointerException: null
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
 	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+11:17:02.711 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Map.osm
+11:17:03.069 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+11:17:03.085 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+11:17:03.319 INFO  [d.f.a.osm.OsmMap] [] - 7184 nodes parsed in 234 milliseconds
+11:17:03.335 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+11:17:04.754 INFO  [d.f.a.osm.OsmMap] [] - 1384 ways parsed in 1404 milliseconds
+11:17:04.754 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+11:17:04.983 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7184 elements computed, took 182 ms
+11:17:05.092 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+11:17:05.154 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+11:17:05.201 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+11:17:05.357 INFO  [d.f.a.antnet.AntMap] [] - 10 ant ways data computed, took 152 ms
+11:17:05.364 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+11:17:05.373 INFO  [d.f.a.antnet.AntMap] [] - 12 nodes computed
+11:17:05.389 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+11:17:05.427 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+11:17:05.437 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+11:17:05.514 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+11:17:05.522 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+11:17:05.534 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+11:17:05.536 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+11:17:05.572 INFO  [d.f.a.antnet.AntMap] [] - 11 sources and 12 destinations computed, took 3 ms
+11:17:05.606 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+11:17:05.762 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+11:17:05.970 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 132 ms
+11:17:06.032 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+11:17:12.249 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+11:17:12.368 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+11:21:28.383 INFO  [b.liftweb.Boot] [] - Shutting down
+11:21:28.409 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+11:21:39.548 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Wedel.osm
+11:21:39.814 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+11:21:39.818 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+11:21:39.909 INFO  [d.f.a.osm.OsmMap] [] - 3027 nodes parsed in 89 milliseconds
+11:21:39.911 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+11:21:40.274 INFO  [d.f.a.osm.OsmMap] [] - 834 ways parsed in 360 milliseconds
+11:21:40.274 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+11:21:40.440 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 3027 elements computed, took 141 ms
+11:21:40.442 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+11:21:40.446 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+11:21:40.481 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+11:21:40.586 INFO  [d.f.a.antnet.AntMap] [] - 86 ant ways data computed, took 105 ms
+11:21:40.586 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+11:21:40.587 INFO  [d.f.a.antnet.AntMap] [] - 61 nodes computed
+11:21:40.588 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+11:21:40.596 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+11:21:40.597 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+11:21:40.637 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+11:21:40.638 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+11:21:40.650 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+11:21:40.651 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+11:21:40.652 INFO  [d.f.a.antnet.AntMap] [] - 60 sources and 60 destinations computed, took 1 ms
+11:21:40.653 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+11:21:40.764 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+11:21:40.908 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 141 ms
+11:21:40.972 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+11:21:40.984 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+11:21:41.086 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+11:21:42.819 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+11:21:42.821 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+11:21:44.813 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+11:21:44.814 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+11:21:47.286 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+11:21:47.286 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+11:21:48.421 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+11:21:48.422 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+11:23:48.542 INFO  [b.liftweb.Boot] [] - Shutting down
+11:23:48.554 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+13:28:12.102 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Bahrenfeld-Gross-Flottbek-Othmarschen-Ottensen.osm
+13:28:12.429 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+13:28:12.445 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+13:28:12.507 INFO  [d.f.a.osm.OsmMap] [] - 2139 nodes parsed in 62 milliseconds
+13:28:12.507 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+13:28:12.741 INFO  [d.f.a.osm.OsmMap] [] - 494 ways parsed in 234 milliseconds
+13:28:12.741 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+13:28:12.851 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 2139 elements computed, took 94 ms
+13:28:12.851 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+13:28:12.851 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+13:28:12.882 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+13:28:12.960 INFO  [d.f.a.antnet.AntMap] [] - 151 ant ways data computed, took 78 ms
+13:28:12.960 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+13:28:12.960 INFO  [d.f.a.antnet.AntMap] [] - 104 nodes computed
+13:28:12.960 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+13:28:12.975 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+13:28:12.975 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+13:28:13.022 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+13:28:13.022 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+13:28:13.038 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+13:28:13.038 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+13:28:13.038 INFO  [d.f.a.antnet.AntMap] [] - 99 sources and 100 destinations computed, took 0 ms
+13:28:13.038 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+13:28:13.163 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+13:28:13.365 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 202 ms
+13:28:13.646 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+13:28:20.507 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+13:28:20.519 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+13:28:40.691 INFO  [b.liftweb.Boot] [] - Shutting down
+13:28:40.706 ERROR [n.l.h.p.s.c.Servlet30AsyncProvider] [] - Servlet 3.0 Async: Couldn't resume thread
+java.lang.NullPointerException: null
+	at net.liftweb.http.provider.servlet.containers.Servlet30AsyncProvider.resume(Servlet30AsyncProvider.scala:114) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.HTTPRequestServlet.resume(HTTPRequestServlet.scala:163) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:669) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:651) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LiftActor$class.execTranslate(LiftActor.scala:441) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.execTranslate(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$proc2(LiftActor.scala:289) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply$mcV$sp(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.around(LiftActor.scala:224) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.around(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$processMailbox(LiftActor.scala:209) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(LiftActor.scala:173) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LAScheduler$$anonfun$9$$anon$2$$anon$3.run(LiftActor.scala:64) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+13:28:40.706 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+13:29:02.754 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Bahrenfeld-Gross-Flottbek-Othmarschen-Ottensen.osm
+13:29:02.972 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+13:29:02.972 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+13:29:03.035 INFO  [d.f.a.osm.OsmMap] [] - 2139 nodes parsed in 63 milliseconds
+13:29:03.035 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+13:29:03.269 INFO  [d.f.a.osm.OsmMap] [] - 494 ways parsed in 234 milliseconds
+13:29:03.269 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+13:29:03.378 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 2139 elements computed, took 94 ms
+13:29:03.393 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+13:29:03.393 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+13:29:03.425 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+13:29:03.487 INFO  [d.f.a.antnet.AntMap] [] - 151 ant ways data computed, took 62 ms
+13:29:03.487 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+13:29:03.487 INFO  [d.f.a.antnet.AntMap] [] - 104 nodes computed
+13:29:03.487 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+13:29:03.503 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+13:29:03.503 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+13:29:03.549 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+13:29:03.549 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+13:29:03.565 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+13:29:03.565 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+13:29:03.565 INFO  [d.f.a.antnet.AntMap] [] - 99 sources and 100 destinations computed, took 0 ms
+13:29:03.565 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+13:29:03.690 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+13:29:03.955 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 265 ms
+13:29:04.220 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+13:29:09.463 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+13:29:09.476 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+13:29:09.649 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+13:29:09.652 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+13:30:37.911 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+13:30:37.913 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+13:31:24.703 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Bahrenfeld-Gross-Flottbek-Othmarschen-Ottensen.osm
+13:31:24.966 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+13:31:24.969 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+13:31:25.053 INFO  [d.f.a.osm.OsmMap] [] - 2139 nodes parsed in 82 milliseconds
+13:31:25.055 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+13:31:25.324 INFO  [d.f.a.osm.OsmMap] [] - 494 ways parsed in 267 milliseconds
+13:31:25.324 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+13:31:25.474 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 2139 elements computed, took 123 ms
+13:31:25.475 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+13:31:25.480 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+13:31:25.518 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+13:31:25.617 INFO  [d.f.a.antnet.AntMap] [] - 151 ant ways data computed, took 97 ms
+13:31:25.617 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+13:31:25.618 INFO  [d.f.a.antnet.AntMap] [] - 104 nodes computed
+13:31:25.619 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+13:31:25.634 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+13:31:25.635 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+13:31:25.692 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+13:31:25.693 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+13:31:25.712 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+13:31:25.712 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+13:31:25.714 INFO  [d.f.a.antnet.AntMap] [] - 99 sources and 100 destinations computed, took 1 ms
+13:31:25.715 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+13:31:25.882 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+13:31:26.166 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 281 ms
+13:31:26.612 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+13:31:28.783 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+13:31:28.897 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+13:31:40.349 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+13:31:40.350 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+13:31:54.554 INFO  [b.liftweb.Boot] [] - Shutting down
+13:31:54.586 ERROR [n.l.h.p.s.c.Servlet30AsyncProvider] [] - Servlet 3.0 Async: Couldn't resume thread
+java.lang.NullPointerException: null
+	at net.liftweb.http.provider.servlet.containers.Servlet30AsyncProvider.resume(Servlet30AsyncProvider.scala:114) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.HTTPRequestServlet.resume(HTTPRequestServlet.scala:163) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:669) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:651) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LiftActor$class.execTranslate(LiftActor.scala:441) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.execTranslate(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$proc2(LiftActor.scala:289) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply$mcV$sp(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.around(LiftActor.scala:224) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.around(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$processMailbox(LiftActor.scala:209) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(LiftActor.scala:173) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LAScheduler$$anonfun$9$$anon$2$$anon$3.run(LiftActor.scala:64) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+13:31:54.586 ERROR [n.l.h.p.s.c.Servlet30AsyncProvider] [] - Servlet 3.0 Async: Couldn't resume thread
+java.lang.NullPointerException: null
+	at net.liftweb.http.provider.servlet.containers.Servlet30AsyncProvider.resume(Servlet30AsyncProvider.scala:114) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.HTTPRequestServlet.resume(HTTPRequestServlet.scala:163) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$15.apply(LiftServlet.scala:683) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:669) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor$$anonfun$messageHandler$1.apply(LiftServlet.scala:651) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LiftActor$class.execTranslate(LiftActor.scala:441) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.execTranslate(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$proc2(LiftActor.scala:289) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply$mcV$sp(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$net$liftweb$actor$SpecializedLiftActor$$processMailbox$1.apply(LiftActor.scala:210) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.around(LiftActor.scala:224) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$ContinuationActor.around(LiftServlet.scala:644) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$class.net$liftweb$actor$SpecializedLiftActor$$processMailbox(LiftActor.scala:209) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.SpecializedLiftActor$$anonfun$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(LiftActor.scala:173) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.actor.LAScheduler$$anonfun$9$$anon$2$$anon$3.run(LiftActor.scala:64) [lift-actor_2.9.2-2.5-M3.jar:2.5-M3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+13:31:54.586 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+13:32:06.467 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Bahrenfeld-Gross-Flottbek-Othmarschen-Ottensen.osm
+13:32:06.667 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+13:32:06.667 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+13:32:06.737 INFO  [d.f.a.osm.OsmMap] [] - 2139 nodes parsed in 70 milliseconds
+13:32:06.747 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+13:32:06.957 INFO  [d.f.a.osm.OsmMap] [] - 494 ways parsed in 210 milliseconds
+13:32:06.957 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+13:32:07.077 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 2139 elements computed, took 100 ms
+13:32:07.087 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+13:32:07.087 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+13:32:07.117 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+13:32:07.187 INFO  [d.f.a.antnet.AntMap] [] - 151 ant ways data computed, took 70 ms
+13:32:07.187 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+13:32:07.187 INFO  [d.f.a.antnet.AntMap] [] - 104 nodes computed
+13:32:07.187 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+13:32:07.197 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+13:32:07.197 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+13:32:07.247 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+13:32:07.247 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+13:32:07.267 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+13:32:07.267 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+13:32:07.267 INFO  [d.f.a.antnet.AntMap] [] - 99 sources and 100 destinations computed, took 0 ms
+13:32:07.267 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+13:32:07.403 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+13:32:07.621 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 218 ms
+13:32:07.917 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+13:32:54.312 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+13:32:54.327 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+13:38:37.117 INFO  [b.liftweb.Boot] [] - Shutting down
+13:38:37.132 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
